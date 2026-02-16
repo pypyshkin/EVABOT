@@ -13,7 +13,7 @@ from collections import defaultdict
 # ────────────────────────────────────────────────
 
 TELEGRAM_TOKEN = "8548197542:AAHWqmWkdfMiLIXCG6S4_CshmhuBpETAdpQ"
-XAI_API_KEY = "xai-iOX7vQ1la35OxuSUN6aGwyzwtkf8Bam8bwvA4HegKUGmyJc3BllWdS2NKkdPRRQKje9Xd4Rb7ZkOfLGM"
+XAI_API_KEY = "xai-ygparKUGVlmniAzLF1vVwDqbVPapQuvGXNdoZMh6CNe19OxL1ddYvmDHwaJbaqJ7KUTQ8eQ5nI5Vwnht"
 BOT_USERNAME = "@Potaskuhnya_Bot"           # для проверки упоминаний в группах
 
 # Рекомендуемая модель для dirty talk: быстрая, дешёвая, креативная
@@ -156,7 +156,7 @@ if __name__ == "__main__":
     # Важно: здесь нужно подставить реальный домен после деплоя!
     # При первом запуске на хостинге замени строку ниже на актуальный URL
     # Пример: https://potaskuhnya-bot-abcdef.koyeb.app/8548197542:AAHWqmWkdfMiLIXCG6S4_CshmhuBpETAdpQ
-    webhook_url = f"https://ВАШ_ДОМЕН_ПОСЛЕ_ДЕПЛОЯ/{TELEGRAM_TOKEN}"
+    webhook_url = f"https://api.telegram.org/bot8548197542:AAHWqmWkdfMiLIXCG6S4_CshmhuBpETAdpQ/setWebhook?url=https://drab-jacinta-booobster-20b502e7.koyeb.app/8548197542:AAHWqmWkdfMiLIXCG6S4_CshmhuBpETAdpQ"
 
     # Устанавливаем webhook
     bot.set_webhook(url=webhook_url)
